@@ -14,7 +14,6 @@ function startGame() {
 
 function renderGame() {
     sumEl.textContent = "Sum: " + sum
-    // cardsEl.innerHTML = "Cards: " + cards[0] + " " + cards[1]
     
     cardsEl.innerHTML = "Cards: "
     //Loop to concatenate the cards into the array.
@@ -22,6 +21,7 @@ function renderGame() {
         cardsEl.innerHTML += cards[i] + " ";
         
     }
+
     //Logic of the game
     if (sum <= 20)
     {
