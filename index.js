@@ -1,3 +1,8 @@
+//player object
+let player = {
+    name: "Abdullah Falak",
+    chips: 145
+}
 
 let cards = [] 
 let sum = 0
@@ -6,14 +11,8 @@ let blackJack = false
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
-
-//player object
-let player = {
-    name: "Abdullah Falak",
-    chips: 145
-}
-
 let playerEl = document.getElementById("player-el")
+
 playerEl.textContent = player.name + ": $" + player.chips
 
 function startGame() {
